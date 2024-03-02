@@ -36,15 +36,15 @@ const Transition = () => {
   return (
     <>
       <AnimatedDiv
-        className="z-30 bg-animated1"
+        className="z-40 bg-animated1"
         transition={{ delay: 0.2, duration: 0.6, ease: "easeInOut" }}
       />
       <AnimatedDiv
-        className="z-20 bg-animated2"
+        className="z-30 bg-animated2"
         transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
       />
       <AnimatedDiv
-        className="z-10 bg-animated3"
+        className="z-20 bg-animated3"
         transition={{ delay: 0.6, duration: 0.6, ease: "easeInOut" }}
       />
     </>
