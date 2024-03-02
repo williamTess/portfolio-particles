@@ -14,9 +14,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
-import SwiperCore, { Keyboard, Mousewheel } from "swiper/core";
-
-SwiperCore.use([Keyboard, Mousewheel]);
 
 // data
 const serviceData = [
@@ -60,7 +57,6 @@ const ServiceSlider = () => {
         clickable: true,
       }}
       modules={[FreeMode, Pagination]}
-      mousewheel={true}
     >
       {serviceData.map((item) => (
         <SwiperSlide key={item.title}>
