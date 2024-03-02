@@ -20,10 +20,10 @@
 
 .swiper-wrapper {
   display: flex !important;
-  position: relative !important;
-  width: 100% !important;
-  height: 100% !important;
-  z-index: 1 !important;
+}
+
+.swiper-slide {
+  flex-shrink: 0 !important;
 }
 
 @layer base {
