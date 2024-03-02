@@ -50,7 +50,7 @@ const serviceData = [
 const ServiceSlider = () => {
   return (
     <Swiper
-      className="h-[240px] sm:h-[340px]"
+      className="h-[240px] sm:h-[340px] !flex"
       breakpoints={{
         320: { slidesPerView: 1, spaceBetween: 15 },
         640: { slidesPerView: 3, spaceBetween: 15 },
