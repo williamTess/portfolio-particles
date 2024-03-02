@@ -50,7 +50,7 @@ const serviceData = [
 const ServiceSlider = () => {
   return (
     <Swiper
-      className="h-[240px] sm:h-[340px] !flex"
+      className="h-[240px] sm:h-[340px]"
       breakpoints={{
         320: { slidesPerView: 1, spaceBetween: 15 },
         640: { slidesPerView: 3, spaceBetween: 15 },
@@ -66,7 +66,7 @@ const ServiceSlider = () => {
         <SwiperSlide key={item.title}>
           <div
             className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8 
-          !flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer 
+          flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer 
           hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300"
           >
             {/* icon */}
