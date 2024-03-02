@@ -26,6 +26,11 @@
   flex-shrink: 0 !important;
 }
 
+.swiper,
+swiper-container {
+  overflow: hidden !important;
+}
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
