@@ -71,7 +71,7 @@ const workSlides = {
 const WorkSlider = () => {
   return (
     <Swiper
-      className="h-[280px] sm:h-[480px]"
+      className="h-fit"
       spaceBetween={10}
       pagination={{
         clickable: true,
